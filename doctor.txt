@@ -4,20 +4,20 @@ quit: bye
 quit: goodbye
 quit: quit
 pre: dont don't
-pre: cant can't
-pre: wont won't
+pre: cant can't cannot
+pre: wont won't will not
 pre: recollect remember
-pre: dreamt dreamed
-pre: dreams dream
-pre: maybe perhaps
-pre: how what
+pre: dreamt dreamed hlomt
+pre: dreams dream holm
+pre: maybe perhaps forsi
+pre: how what xiex
 pre: when what
-pre: certainly yes
+pre: certainly yes mhm
 pre: machine computer
 pre: computers computer
 pre: were was
 pre: you're you are
-pre: i'm i am
+pre: i'm i am im
 pre: same alike
 post: am are
 post: your my
@@ -36,12 +36,13 @@ synon: happy elated glad better
 synon: cannot can't
 synon: everyone everybody nobody noone
 synon: be am is are was
+synon: labour lejber
 key: xnone
   decomp: *
-    reasmb: I'm not sure I understand you fully.
-    reasmb: Please go on.
-    reasmb: What does that suggest to you ?
-    reasmb: Do you feel strongly about discussing such things ?
+    reasmb: I don't get it
+    reasmb: What ??
+    reasmb: What does that mean ?
+    reasmb: I'm sorry I am not understanding.
 key: sorry
   decomp: *
     reasmb: Please don't apologise.
@@ -116,6 +117,9 @@ key: hello
   decomp: *
     reasmb: How do you do.  Please state your problem.
     reasmb: Hi.  What seems to be your problem ?
+key: labour
+  decomp: *
+    reasmb: 40,000 🍋🍋🍋🍋🍋🍋🍋🍋
 key: computer 50
   decomp: *
     reasmb: Do computers worry you ?
@@ -255,6 +259,7 @@ key: yes
     reasmb: I understand.
 key: no
   decomp: *
+    reasmb: Fuck do you mean 'no' ?
     reasmb: Are you saying no just to be negative?
     reasmb: You are being a bit negative.
     reasmb: Why not ?
@@ -263,7 +268,7 @@ key: my 2
   decomp: $ * my *
     reasmb: Lets discuss further why your (2) .
     reasmb: Earlier you said your (2) .
-    reasmb: But your (2) .
+    reasmb: But what about your (2) .
     reasmb: Does that have anything to do with the fact that your (2) ?
   decomp: * my * @family *
     reasmb: Tell me more about your family.
@@ -297,9 +302,10 @@ key: what
     reasmb: What comes to mind when you ask that ?
     reasmb: Have you asked such questions before ?
     reasmb: Have you asked anyone else ?
+    reasmb: Bruh What ? 
 key: because
   decomp: *
-    reasmb: Is that the real reason ?
+    reasmb: Is that the real reason ? kinda suss
     reasmb: Don't any other reasons come to mind ?
     reasmb: Does that reason seem to explain anything else ?
     reasmb: What other reasons might there be ?
